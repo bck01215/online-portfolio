@@ -1,0 +1,51 @@
+{
+	"name": "frontend",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "prettier --plugin-search-dir . --check . && eslint .",
+		"format": "prettier --plugin-search-dir . --write ."
+	},
+	"devDependencies": {
+		"@fontsource/fira-mono": "^4.5.10",
+		"@neoconfetti/svelte": "^1.0.0",
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.5.0",
+		"@types/cookie": "^0.5.1",
+		"@typescript-eslint/eslint-plugin": "^5.45.0",
+		"@typescript-eslint/parser": "^5.45.0",
+		"autoprefixer": "^10.4.14",
+		"eslint": "^8.28.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-svelte": "^2.26.0",
+		"postcss": "^8.4.24",
+		"prettier": "^2.8.0",
+		"prettier-plugin-svelte": "^2.8.1",
+		"svelte": "^4.0.0",
+		"svelte-check": "^3.6.0",
+		"tailwindcss": "^3.3.2",
+		"tslib": "^2.4.1",
+		"typescript": "^5.0.0",
+		"vite": "^4.3.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"@iconify/svelte": "^3.1.4",
+		"@popperjs/core": "^2.11.8",
+		"classnames": "^2.3.2",
+		"clsx": "^2.1.0",
+		"flowbite": "^1.6.5",
+		"flowbite-svelte": "^0.37.4",
+		"iconify": "^1.4.0",
+		"logrocket": "^4.0.2",
+		"lucide-svelte": "^0.359.0",
+		"svelte-adapter-appengine": "^0.10.3",
+		"svelte-add": "^2023.6.3-0.0",
+		"svelte-motion": "^0.12.2",
+		"tailwind-merge": "^2.2.2"
+	}
+}
